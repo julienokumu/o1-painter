@@ -8,7 +8,7 @@ import gradio as gr  # For creating the web interface
 API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
 
 # Set the headers for the API request, including the authorization token
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer hf_"}
 
 # Define a function to query the API with the user's prompt
 def query(prompt):
